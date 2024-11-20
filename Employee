@@ -1,0 +1,17 @@
+# List of employee dictionaries
+employees = [
+    {"name": "Jin Kazama", "job_title": "Software Engineer", "id": 1, "email": "alice.smith@example.com"},
+    {"name": "Kazuya Mishima", "job_title": "Product Manager", "id": 2, "email": "bob.johnson@example.com"},
+    {"name": "Lars Mishima", "job_title": "UX Designer", "id": 3, "email": "charlie.brown@example.com"},
+    {"name": "Heihachi Mishima", "job_title": "Data Scientist", "id": 4, "email": "diana.prince@example.com"},
+    {"name": "Lars Alexandersson", "job_title": "Data Scientist", "id": 4, "email": "diana.prince@example.com"},
+    {"name": "Asuka Kazama", "job_title": "DevOps Engineer", "id": 5, "email": "ethan.hunt@example.com"},
+    {"name": "Emilie de Rochefort", "job_title": "Marketing Specialist", "id": 6, "email": "fiona.gallagher@example.com"},
+    {"name": "Bryan Fury", "job_title": "Sales Executive", "id": 7, "email": "george.clooney@example.com"},
+    {"name": "Bruce Irvin", "job_title": "HR Manager", "id": 8, "email": "hannah.montana@example.com"},
+    {"name": "Baek Doo San", "job_title": "Project Coordinator", "id": 9, "email": "ian.malcolm@example.com"}
+]
+
+# Print employee data
+for employee in employees:
+    print(f"Name: {employee['name']}, Job Title: {employee['job_title']}, Email: {employee['email']}")
