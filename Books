@@ -1,0 +1,16 @@
+# List of book dictionaries
+filipino_books = [
+    {"title": "Noli Me Tangere", "author": "José Rizal", "id": 1, "genre": "Historical Fiction", "year": 1887},
+    {"title": "El Filibusterismo", "author": "José Rizal", "id": 2, "genre": "Political Fiction", "year": 1891},
+    {"title": "Florante at Laura", "author": "Francisco Balagtas", "id": 3, "genre": "Poetry", "year": 1838},
+    {"title": "Mga Ibong Mandaragit", "author": "Amado Hernandez", "id": 4, "genre": "Social Realism", "year": 1969},
+    {"title": "Banaag at Sikat", "author": "Lope K. Santos", "id": 5, "genre": "Social Novel", "year": 1906},
+    {"title": "Ang Mga Anak-Dalita", "author": "Rafael Zulueta da Costa", "id": 6, "genre": "Drama", "year": 1947},
+    {"title": "Sa mga Kuko ng Liwanag", "author": "Edgardo M. Reyes", "id": 7, "genre": "Fiction", "year": 1966},
+    {"title": "Kangkungan", "author": "Ruth Elynia S. Mabanglo", "id": 8, "genre": "Poetry", "year": 1990},
+    {"title": "Taga sa Bato", "author": "Rafael Zulueta da Costa", "id": 9, "genre": "Short Stories", "year": 1947}
+]
+
+# Print Filipino book data
+for book in filipino_books:
+    print(f"Title: {book['title']}, Author: {book['author']}, Year: {book['year']}, Genre: {book['genre']}")
