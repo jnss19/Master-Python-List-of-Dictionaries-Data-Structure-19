@@ -1,0 +1,14 @@
+# List of university dictionaries
+universities = [
+    {"name": "University of the Philippines Diliman", "location": "Quezon City", "id": 1, "year_established": 1908},
+    {"name": "Ateneo de Manila University", "location": "Quezon City", "id": 2, "year_established": 1859},
+    {"name": "De La Salle University", "location": "Manila", "id": 3, "year_established": 1911},
+    {"name": "University of Santo Tomas", "location": "Manila", "id": 4, "year_established": 1611},
+    {"name": "University of San Carlos", "location": "Cebu City", "id": 5, "year_established": 1935},
+    {"name": "Mapúa University", "location": "Manila", "id": 6, "year_established": 1925},
+    {"name": "University of the East", "location": "Manila", "id": 7, "year_established": 1946},
+    {"name": "Far Eastern University", "location": "Manila", "id": 8, "year_established": 1928},
+    {"name": "Mindanao State University", "location": "Marawi City", "id": 9, "year_established": 1961}
+]
+
+    print(f"Name: {university['name']}, Location: {university['location']}, Year Established: {university['year_established']}")
