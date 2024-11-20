@@ -1,0 +1,14 @@
+# List of product dictionaries
+products = [
+    {"name": "Laptop", "price": 999.99, "category": "Electronics", "id": 1},
+    {"name": "Smartphone", "price": 699.99, "category": "Electronics", "id": 2},
+    {"name": "Tablet", "price": 299.99, "category": "Electronics", "id": 3},
+    {"name": "Headphones", "price": 149.99, "category": "Accessories", "id": 4},
+    {"name": "Smartwatch", "price": 199.99, "category": "Wearables", "id": 5},
+    {"name": "Gaming Console", "price": 499.99, "category": "Gaming", "id": 6},
+    {"name": "Bluetooth Speaker", "price": 89.99, "category": "Audio", "id": 7},
+    {"name": "Camera", "price": 599.99, "category": "Photography", "id": 8},
+    {"name": "Wireless Mouse", "price": 29.99, "category": "Accessories", "id": 9}
+]
+
+    print(f"Name: {product['name']}, Price: ${product['price']:.2f}, Category: {product['category']}")
