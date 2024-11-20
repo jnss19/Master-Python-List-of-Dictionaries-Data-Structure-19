@@ -1,0 +1,24 @@
+# List of restaurant dictionaries
+restaurants = [
+    {"name": "Jollibee", "cuisine_type": "Fast Food", "id": 1, "location": "Various Locations"},
+    {"name": "Mang Inasal", "cuisine_type": "Grill", "id": 2, "location": "Various Locations"},
+    {"name": "Max's Restaurant", "cuisine_type": "Filipino", "id": 3, "location": "Various Locations"},
+    {"name": "KFC", "cuisine_type": "Fast Food", "id": 4, "location": "Various Locations"},
+    {"name": "The Alley by Vikings", "cuisine_type": "Buffet", "id": 5, "location": "Pasig City"},
+    {"name": "Ramen Nagi", "cuisine_type": "Japanese", "id": 6, "location": "Various Locations"},
+    {"name": "Cafe Adriatico", "cuisine_type": "Filipino", "id": 7, "location": "Malate, Manila"},
+    {"name": "Bistro Remedios", "cuisine_type": "Filipino", "id": 8, "location": "Malate, Manila"},
+    {"name": "Yabu: House of Katsu", "cuisine_type": "Japanese", "id": 9, "location": "Various Locations"}
+]
+
+    #print the restaurant dictionaries
+    print(f"Name: {restaurant['name']}, Cuisine Type: {restaurant['cuisine_type']}, Location: {restaurant['location']}")
+    
+    
+    
+    
+    
+    
+    
+    
+    
